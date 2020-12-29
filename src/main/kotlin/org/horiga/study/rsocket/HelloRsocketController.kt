@@ -45,7 +45,7 @@ class HelloRsocketController {
         Flux.range(0, Random.nextInt(5, 30))
             .delayElements(Duration.ofMillis(500))
             .map { index ->
-                log.info("send stream response message ($index)")
+                log.info("send stream response message ({})", index)
                 ResponseMessage("Response message stream index '$index', request.message=${it.message}")
             }
     }
