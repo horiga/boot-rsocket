@@ -13,7 +13,10 @@ This is a my first [RSocket](https://rsocket.io/) server application.
 use [rsc](https://github.com/making/rsc)  
 
 ```
+// download rsc
 $ cd rsc
+$ wget https://github.com/making/rsc/releases/download/0.6.1/rsc-0.6.1.jar
+
 // request-response
 $ sh request-response.sh
 
