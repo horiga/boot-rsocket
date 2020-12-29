@@ -1,4 +1,4 @@
-package org.horiga.study.docker
+package org.horiga.study.rsocket
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

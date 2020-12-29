@@ -2,3 +2,7 @@ spring.rsocket.server:
     port: 7000
     transport: websocket
     mapping-path: /rs
+
+management:
+    server:
+        port: 18080
