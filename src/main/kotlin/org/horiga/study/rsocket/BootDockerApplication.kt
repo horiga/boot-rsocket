@@ -1,18 +1,13 @@
 package org.horiga.study.rsocket
 
 import io.micrometer.core.instrument.MeterRegistry
-import io.rsocket.core.Resume
-import io.rsocket.micrometer.MicrometerDuplexConnectionInterceptor
 import io.rsocket.micrometer.MicrometerRSocketInterceptor
 import org.slf4j.LoggerFactory
 import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.rsocket.server.RSocketServerCustomizer
 import org.springframework.boot.rsocket.server.ServerRSocketFactoryProcessor
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
-import reactor.util.retry.Retry
-import java.time.Duration
 
 annotation class NoArgs
 
