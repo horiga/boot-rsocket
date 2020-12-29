@@ -6,3 +6,4 @@ spring.rsocket.server:
 management:
     server:
         port: 18080
+    endpoints.web.exposure.include: health,prometheus
